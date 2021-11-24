@@ -3,7 +3,7 @@ public class RepeticaoWhile {
         // while - enquanto
 
         int contador = 0;
-        while (contador != 10) {
+        while (contador <= 10) {
             System.out.println(contador);
             contador++;
         }
