@@ -16,6 +16,7 @@ import java.util.Scanner;
 public class Tarefa1Decisao {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+
         double nota1 = 0, nota2 = 0, media = 0;
         char conceito = ' ';
 
