@@ -1,5 +1,3 @@
-package JavaTarefas;
-
 import java.io.IOException;
 import java.util.Scanner;
 
