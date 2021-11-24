@@ -12,7 +12,6 @@ import java.util.Scanner;
 public class Tarefa1 {
     public static void main(String[] args) throws IOException {
         Scanner entrada = new Scanner(System.in);
-
         double h, pesoIdeal = 0;
         char sexo;
 
