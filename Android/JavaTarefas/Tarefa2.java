@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class Tarefa2 {
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
+
         double pesoPeixe = 0, excesso = 0, multa = 0;
 
         System.out.println("Digite o peso do peixe: ");
