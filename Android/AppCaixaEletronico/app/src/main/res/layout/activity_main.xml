@@ -7,13 +7,51 @@
     android:background="@color/vermelho"
     tools:context=".MainActivity" >
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+    <TextView
+        android:id="@+id/saldo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/branco"
+        android:padding="30dp"
+        android:text="Saldo em Conta"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bank" />
+        app:layout_constraintVertical_bias="0.098" />
+
+    <EditText
+        android:id="@+id/dinheiro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/branco"
+        android:ems="10"
+        android:hint="00,00"
+        android:inputType="numberDecimal"
+        android:padding="30dp"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/saldo"
+        app:layout_constraintVertical_bias="0.198" />
+
+    <Button
+        android:id="@+id/btn_sacar"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/botao"
+        android:padding="20dp"
+        android:text="Sacar"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/branco"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dinheiro"
+        app:layout_constraintVertical_bias="0.294" />
 </androidx.constraintlayout.widget.ConstraintLayout>
