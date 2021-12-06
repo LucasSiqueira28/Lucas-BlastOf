@@ -77,6 +77,5 @@ public class Tarefa1Repeticao {
         System.out.println("Altura: " + alturamagro);
         System.out.println("Media das alturas dos clientes: " + mediaAltura);
         System.out.println("Media dos pesos dos clientes: " + mediaPeso);
-
     }
 }

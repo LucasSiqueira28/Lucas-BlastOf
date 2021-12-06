@@ -7,9 +7,9 @@ public class Tarefa1String {
         String frase1, frase2;
 
         System.out.println("Digite uma frase: ");
-        frase1 = entrada.next();
+        frase1 = entrada.nextLine();
         System.out.println("Digite outra frase: ");
-        frase2 = entrada.next();
+        frase2 = entrada.nextLine();
 
         System.out.println("Tamanho de '" + frase1 + "': " + frase1.length() + " caracteres");
         System.out.println("Tamanho de '" + frase2 + "': " + frase2.length() + " caracteres");

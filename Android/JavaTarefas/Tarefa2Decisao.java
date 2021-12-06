@@ -8,6 +8,7 @@ par ou ímpar;
 positivo ou negativo;
 inteiro ou decimal.
 */
+
 public class Tarefa2Decisao {
     public static void main(String[] args) throws IOException {
         Scanner entrada = new Scanner(System.in);
