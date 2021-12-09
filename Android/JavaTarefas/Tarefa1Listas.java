@@ -61,6 +61,8 @@ public class Tarefa1Listas {
         // dividindo a variacao de temp pelo tamanho do array dos meses.
         tempVariacao = tempVariacao / mesesTemp.length;
 
+        System.out.println(tempVariacao);
+
         System.out.println("\nMeses com temperatura acima da média anual: ");
         for (int i = 0; i < 12; i++) {
             if (mesesTemp[i] >= tempVariacao) {

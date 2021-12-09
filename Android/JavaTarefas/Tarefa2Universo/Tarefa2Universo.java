@@ -28,7 +28,7 @@ public class Tarefa2Universo {
             }
             if (celeste.getTipo().toString().equals("planeta")) {
                 cPlanetas += 1;
-                System.out.println("ahsduhduasdasd");
+                // System.out.println("ahsduhduasdasd");
             }
             if (celeste.getTipo().toString().equals("nebulosa")) {
                 cNebulosas += 1;
