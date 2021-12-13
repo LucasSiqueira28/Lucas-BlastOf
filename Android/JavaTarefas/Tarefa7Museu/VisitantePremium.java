@@ -1,3 +1,5 @@
+package Tarefa7Museu;
+
 import java.util.Date;
 
 public class VisitantePremium extends Visitante {

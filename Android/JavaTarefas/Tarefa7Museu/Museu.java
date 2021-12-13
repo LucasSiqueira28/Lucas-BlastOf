@@ -1,3 +1,5 @@
+package Tarefa7Museu;
+
 public class Museu {
     public static final byte Vintage = 1;
     public static final byte Numismatica = 2;
