@@ -16,5 +16,4 @@ fun soma(h: Float, sexo: Char){
         println("Sexo: ${sexo} - Altura ${h} - Peso ideal de ${pesoIdeal}")
     }
     else println("Sexo ou peso invalido");
-
 }
