@@ -1,12 +1,9 @@
-fun main(args: Array<String>) {
-    variaveis()
+fun main(){
+    var usuario = "Lucas"
+    println(usuario)
+    usuario = "Eduardo"
+    println(usuario)
 
-}
-
-fun variaveis(){
-    val nome = "Lucas"
-    var sobrenome:String = " Eduardo "
-    val idade = 22
-    val cargo:String = " Desenvolvedor"
-    println(nome + sobrenome + idade + cargo)
+    val nome = "lucas"
+    println(nome)
 }
